@@ -1,0 +1,30 @@
+window {
+  margin: 0px;
+  background-color: #1A1A1A;
+  border-radius: 10px;
+  font-family: JetBrainsMono, monospace;
+  font-size: 14px;
+}
+
+#entry {
+  padding: 6px;
+  margin: 2px 4px;
+  color: #ECEFF4;
+  background-color: transparent;
+  border-radius: 6px;
+}
+
+#entry:selected {
+  background-color: transparent;
+  border: 2px solid #B5483C;
+  color: #FFFFFF;
+}
+
+#input {
+  margin: 6px 10px;
+  padding: 4px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2B2B2B;
+  color: #ECEFF4;
+}
